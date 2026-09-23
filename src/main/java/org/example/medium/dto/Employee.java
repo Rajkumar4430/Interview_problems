@@ -19,6 +19,11 @@ public class Employee {
         this.department = department;
     }
 
+    public Employee(String name, int salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
     //Getters
     public int getId() {return id;}
     public String getName() {return name;}
@@ -28,7 +33,7 @@ public class Employee {
     //toString
     @Override
     public String toString() {
-        return id + " " + name + " " + salary;
+        return name + " " + salary;
     }
 
 }
