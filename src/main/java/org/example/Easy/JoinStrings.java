@@ -15,5 +15,9 @@ public class JoinStrings {
                 .collect(Collectors.joining("-"));
 
         System.out.println(collect);
+
+        String collect1 = String.join("-", fruits);
+
+        System.out.println(collect1);
     }
 }
